@@ -1,0 +1,2084 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "email": "admin@assetflow.com",
+      "name": "Alex Mercer",
+      "role": "Admin",
+      "departmentId": "dept-ops",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "user-manager",
+      "email": "manager@assetflow.com",
+      "name": "Elena Rostova",
+      "role": "AssetManager",
+      "departmentId": "dept-ops",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-01-02T08:00:00Z"
+    },
+    {
+      "id": "user-head",
+      "email": "head@assetflow.com",
+      "name": "Sarah Chen",
+      "role": "DepartmentHead",
+      "departmentId": "dept-eng",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-01-10T08:00:00Z"
+    },
+    {
+      "id": "user-head-mkt",
+      "email": "mkthead@assetflow.com",
+      "name": "Marcus Brody",
+      "role": "DepartmentHead",
+      "departmentId": "dept-mkt",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-01-12T09:00:00Z"
+    },
+    {
+      "id": "user-employee",
+      "email": "employee@assetflow.com",
+      "name": "John Doe",
+      "role": "Employee",
+      "departmentId": "dept-eng",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-01-11T08:00:00Z"
+    },
+    {
+      "id": "user-employee2",
+      "email": "jane@assetflow.com",
+      "name": "Jane Smith",
+      "role": "Employee",
+      "departmentId": "dept-mkt",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-02-15T08:00:00Z"
+    },
+    {
+      "id": "user-employee3",
+      "email": "bob@assetflow.com",
+      "name": "Bob Wilson",
+      "role": "Employee",
+      "departmentId": "dept-ops",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": "user-employee4",
+      "email": "alice@assetflow.com",
+      "name": "Alice Brown",
+      "role": "Employee",
+      "departmentId": "dept-fin",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "createdAt": "2026-03-15T08:00:00Z"
+    },
+    {
+      "id": "user-a45db711",
+      "email": "dakshkhamar40@gmail.com",
+      "name": "daksh",
+      "role": "Employee",
+      "departmentId": "dept-fin",
+      "status": "Active",
+      "avatar": "",
+      "createdAt": "2026-07-12T12:14:05.951Z"
+    }
+  ],
+  "passwords": {
+    "user-admin": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-manager": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-head": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-head-mkt": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-employee": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-employee2": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-employee3": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-employee4": "022475f840092c88df892512ecd1cfd04f8ca576d09a26f863aec8e7d09bb6d4",
+    "user-a45db711": "4a17cf020d300cb3f11c79dc27673dc0224c752dd2814be2ebb85ec38fb83e31"
+  },
+  "departments": [
+    {
+      "id": "dept-eng",
+      "name": "Engineering",
+      "headId": "user-head",
+      "parentId": null,
+      "status": "Active",
+      "createdAt": "2026-01-10T08:00:00Z"
+    },
+    {
+      "id": "dept-mkt",
+      "name": "Marketing",
+      "headId": "user-head-mkt",
+      "parentId": null,
+      "status": "Active",
+      "createdAt": "2026-01-12T09:00:00Z"
+    },
+    {
+      "id": "dept-ops",
+      "name": "Operations",
+      "headId": "user-manager",
+      "parentId": null,
+      "status": "Active",
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": "dept-fin",
+      "name": "Finance",
+      "headId": null,
+      "parentId": null,
+      "status": "Active",
+      "createdAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "dept-hr",
+      "name": "HR",
+      "headId": null,
+      "parentId": null,
+      "status": "Active",
+      "createdAt": "2026-01-15T10:00:00Z"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ast-101",
+      "tag": "AST-2026-001",
+      "name": "MacBook Pro M3 Max 16\"",
+      "serialNumber": "C02F83KJQ05D",
+      "category": "Laptop",
+      "purchaseDate": "2026-01-15",
+      "purchaseCost": 3499,
+      "warrantyMonths": 36,
+      "condition": "New",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-001",
+      "history": [
+        {
+          "id": "hist-1",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-01-15T10:00:00Z",
+          "details": "Registered brand new MacBook Pro into system."
+        }
+      ]
+    },
+    {
+      "id": "ast-102",
+      "tag": "AST-2026-002",
+      "name": "ThinkPad X1 Carbon Gen 11",
+      "serialNumber": "PF3J82AL",
+      "category": "Laptop",
+      "purchaseDate": "2026-02-01",
+      "purchaseCost": 1899,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-002",
+      "history": [
+        {
+          "id": "hist-3",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-02-01T09:00:00Z",
+          "details": "Registered ThinkPad into inventory."
+        }
+      ]
+    },
+    {
+      "id": "ast-103",
+      "tag": "AST-2026-003",
+      "name": "Tesla Model 3 (Fleet #4)",
+      "serialNumber": "5YJ3E1EA8NF",
+      "category": "Vehicle",
+      "purchaseDate": "2025-05-10",
+      "purchaseCost": 42000,
+      "warrantyMonths": 48,
+      "condition": "Good",
+      "location": "Sub-Level Garage (Bay 12)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-003",
+      "history": [
+        {
+          "id": "hist-4",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2025-05-10T14:00:00Z",
+          "details": "Fleet Vehicle registered to Operations."
+        }
+      ]
+    },
+    {
+      "id": "ast-104",
+      "tag": "AST-2026-004",
+      "name": "Conference Room 'Omega' (12 Pax)",
+      "serialNumber": "ROOM-OMEGA-SF",
+      "category": "MeetingRoom",
+      "purchaseDate": "2024-01-01",
+      "purchaseCost": 15000,
+      "warrantyMonths": 120,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 5th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-004",
+      "history": [
+        {
+          "id": "hist-5",
+          "action": "Asset Registered",
+          "performedBy": "Alex Mercer",
+          "date": "2024-01-01T08:00:00Z",
+          "details": "Omega Meeting Room set up."
+        }
+      ]
+    },
+    {
+      "id": "ast-105",
+      "tag": "AST-2026-005",
+      "name": "Dell UltraSharp 32\" 4K Monitor",
+      "serialNumber": "MX-09K82L",
+      "category": "Monitor",
+      "purchaseDate": "2026-03-01",
+      "purchaseCost": 899,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 2nd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-005",
+      "history": [
+        {
+          "id": "hist-6",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-03-01T15:00:00Z",
+          "details": "Registered Dell 4K display."
+        }
+      ]
+    },
+    {
+      "id": "ast-106",
+      "tag": "AST-2026-006",
+      "name": "iPhone 15 Pro Max 256GB",
+      "serialNumber": "DNQX82LKP",
+      "category": "Mobile",
+      "purchaseDate": "2025-10-12",
+      "purchaseCost": 1199,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "Secure Storage Locker C",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-006",
+      "history": [
+        {
+          "id": "hist-8",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-10-12T11:00:00Z",
+          "details": "Registered mobile device."
+        }
+      ]
+    },
+    {
+      "id": "ast-107",
+      "tag": "AST-2026-007",
+      "name": "MacBook Air M3 13\"",
+      "serialNumber": "C02G23LKQ05E",
+      "category": "Laptop",
+      "purchaseDate": "2026-02-10",
+      "purchaseCost": 1299,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-007",
+      "history": [
+        {
+          "id": "h-7",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-02-10T10:00:00Z",
+          "details": "Registered brand new MacBook Air."
+        }
+      ]
+    },
+    {
+      "id": "ast-108",
+      "tag": "AST-2026-008",
+      "name": "Dell Latitude 7440",
+      "serialNumber": "DL-93K821L",
+      "category": "Laptop",
+      "purchaseDate": "2025-11-05",
+      "purchaseCost": 1450,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 2nd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-fin",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-008",
+      "history": [
+        {
+          "id": "h-8",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-11-05T11:00:00Z",
+          "details": "Registered Dell Latitude."
+        }
+      ]
+    },
+    {
+      "id": "ast-109",
+      "tag": "AST-2026-009",
+      "name": "HP EliteBook 840 G10",
+      "serialNumber": "HP-CNU3921",
+      "category": "Laptop",
+      "purchaseDate": "2025-09-18",
+      "purchaseCost": 1550,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 2nd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-009",
+      "history": [
+        {
+          "id": "h-9",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-09-18T10:00:00Z",
+          "details": "Registered HP EliteBook."
+        }
+      ]
+    },
+    {
+      "id": "ast-110",
+      "tag": "AST-2026-010",
+      "name": "Surface Laptop 5",
+      "serialNumber": "SF-0092182K",
+      "category": "Laptop",
+      "purchaseDate": "2025-08-20",
+      "purchaseCost": 1399,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-010",
+      "history": [
+        {
+          "id": "h-10",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-08-20T14:00:00Z",
+          "details": "Registered Surface Laptop."
+        }
+      ]
+    },
+    {
+      "id": "ast-111",
+      "tag": "AST-2026-011",
+      "name": "ASUS Zenbook S 13 OLED",
+      "serialNumber": "AS-ZM8219K",
+      "category": "Laptop",
+      "purchaseDate": "2026-01-20",
+      "purchaseCost": 1499,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-011",
+      "history": [
+        {
+          "id": "h-11",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-01-20T10:00:00Z",
+          "details": "Registered ASUS Zenbook."
+        }
+      ]
+    },
+    {
+      "id": "ast-112",
+      "tag": "AST-2026-012",
+      "name": "iPhone 16 Pro Slate 256GB",
+      "serialNumber": "AP-IP16P-921",
+      "category": "Mobile",
+      "purchaseDate": "2026-03-12",
+      "purchaseCost": 1099,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "Secure Storage Locker C",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-012",
+      "history": [
+        {
+          "id": "h-12",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-03-12T09:30:00Z",
+          "details": "Registered iPhone 16 Pro."
+        }
+      ]
+    },
+    {
+      "id": "ast-113",
+      "tag": "AST-2026-013",
+      "name": "Samsung Galaxy S25 Ultra",
+      "serialNumber": "SM-S25U-921K",
+      "category": "Mobile",
+      "purchaseDate": "2026-02-15",
+      "purchaseCost": 1299,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "Secure Storage Locker C",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-013",
+      "history": [
+        {
+          "id": "h-13",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-02-15T11:00:00Z",
+          "details": "Registered Samsung Galaxy S25 Ultra."
+        }
+      ]
+    },
+    {
+      "id": "ast-114",
+      "tag": "AST-2026-014",
+      "name": "Google Pixel 9 Pro 128GB",
+      "serialNumber": "GP-PX9P-821L",
+      "category": "Mobile",
+      "purchaseDate": "2025-12-05",
+      "purchaseCost": 999,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "Secure Storage Locker C",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-014",
+      "history": [
+        {
+          "id": "h-14",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-12-05T14:20:00Z",
+          "details": "Registered Google Pixel 9 Pro."
+        }
+      ]
+    },
+    {
+      "id": "ast-115",
+      "tag": "AST-2026-015",
+      "name": "Conference Room 'Orion' (8 Pax)",
+      "serialNumber": "ROOM-ORION-SF",
+      "category": "MeetingRoom",
+      "purchaseDate": "2024-01-01",
+      "purchaseCost": 10000,
+      "warrantyMonths": 120,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 5th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-015",
+      "history": [
+        {
+          "id": "h-15",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2024-01-01T08:00:00Z",
+          "details": "Orion Room set up."
+        }
+      ]
+    },
+    {
+      "id": "ast-116",
+      "tag": "AST-2026-016",
+      "name": "Conference Room 'Venus' (6 Pax)",
+      "serialNumber": "ROOM-VENUS-SF",
+      "category": "MeetingRoom",
+      "purchaseDate": "2024-01-01",
+      "purchaseCost": 8000,
+      "warrantyMonths": 120,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 1st Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-016",
+      "history": [
+        {
+          "id": "h-16",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2024-01-01T08:00:00Z",
+          "details": "Venus Room set up."
+        }
+      ]
+    },
+    {
+      "id": "ast-117",
+      "tag": "AST-2026-017",
+      "name": "Conference Room 'Mercury' (4 Pax)",
+      "serialNumber": "ROOM-MERCURY-SF",
+      "category": "MeetingRoom",
+      "purchaseDate": "2024-01-01",
+      "purchaseCost": 5000,
+      "warrantyMonths": 120,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 1st Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-017",
+      "history": [
+        {
+          "id": "h-17",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2024-01-01T08:00:00Z",
+          "details": "Mercury Room set up."
+        }
+      ]
+    },
+    {
+      "id": "ast-118",
+      "tag": "AST-2026-018",
+      "name": "Conference Room 'Neptune' (10 Pax)",
+      "serialNumber": "ROOM-NEPTUNE-SF",
+      "category": "MeetingRoom",
+      "purchaseDate": "2024-01-01",
+      "purchaseCost": 12000,
+      "warrantyMonths": 120,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 2nd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-018",
+      "history": [
+        {
+          "id": "h-18",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2024-01-01T08:00:00Z",
+          "details": "Neptune Room set up."
+        }
+      ]
+    },
+    {
+      "id": "ast-119",
+      "tag": "AST-2026-019",
+      "name": "Conference Room 'Jupiter' (16 Pax)",
+      "serialNumber": "ROOM-JUPITER-SF",
+      "category": "MeetingRoom",
+      "purchaseDate": "2024-01-01",
+      "purchaseCost": 18000,
+      "warrantyMonths": 120,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-019",
+      "history": [
+        {
+          "id": "h-19",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2024-01-01T08:00:00Z",
+          "details": "Jupiter Room set up."
+        }
+      ]
+    },
+    {
+      "id": "ast-120",
+      "tag": "AST-2026-020",
+      "name": "Tesla Model Y (Fleet #5)",
+      "serialNumber": "5YJ3E1EA9NF",
+      "category": "Vehicle",
+      "purchaseDate": "2025-06-15",
+      "purchaseCost": 46000,
+      "warrantyMonths": 48,
+      "condition": "Excellent",
+      "location": "Sub-Level Garage (Bay 13)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-020",
+      "history": [
+        {
+          "id": "h-20",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2025-06-15T10:00:00Z",
+          "details": "Tesla Model Y registered."
+        }
+      ]
+    },
+    {
+      "id": "ast-121",
+      "tag": "AST-2026-021",
+      "name": "Toyota Innova HyCross",
+      "serialNumber": "TY-IN821-LK9",
+      "category": "Vehicle",
+      "purchaseDate": "2025-07-20",
+      "purchaseCost": 35000,
+      "warrantyMonths": 36,
+      "condition": "Good",
+      "location": "Sub-Level Garage (Bay 14)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-021",
+      "history": [
+        {
+          "id": "h-21",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2025-07-20T11:00:00Z",
+          "details": "Toyota Innova added."
+        }
+      ]
+    },
+    {
+      "id": "ast-122",
+      "tag": "AST-2026-022",
+      "name": "Mahindra XUV700 AX7",
+      "serialNumber": "MH-XU700-LM2",
+      "category": "Vehicle",
+      "purchaseDate": "2025-08-11",
+      "purchaseCost": 28000,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "Sub-Level Garage (Bay 15)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-022",
+      "history": [
+        {
+          "id": "h-22",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2025-08-11T14:30:00Z",
+          "details": "Mahindra XUV700 registered."
+        }
+      ]
+    },
+    {
+      "id": "ast-123",
+      "tag": "AST-2026-023",
+      "name": "Hyundai Creta SX(O)",
+      "serialNumber": "HY-CR892-L1A",
+      "category": "Vehicle",
+      "purchaseDate": "2025-09-01",
+      "purchaseCost": 22000,
+      "warrantyMonths": 36,
+      "condition": "Good",
+      "location": "Sub-Level Garage (Bay 16)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-023",
+      "history": [
+        {
+          "id": "h-23",
+          "action": "Asset Registered",
+          "performedBy": "System",
+          "date": "2025-09-01T15:00:00Z",
+          "details": "Hyundai Creta added."
+        }
+      ]
+    },
+    {
+      "id": "ast-124",
+      "tag": "AST-2026-024",
+      "name": "LG UltraFine 5K Display 27\"",
+      "serialNumber": "LG-5K-UF921K",
+      "category": "Monitor",
+      "purchaseDate": "2025-10-15",
+      "purchaseCost": 1299,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-024",
+      "history": [
+        {
+          "id": "h-24",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-10-15T11:00:00Z",
+          "details": "Registered LG 5K Display."
+        }
+      ]
+    },
+    {
+      "id": "ast-125",
+      "tag": "AST-2026-025",
+      "name": "Samsung ViewFinity S9 5K",
+      "serialNumber": "SM-S9-VF8219",
+      "category": "Monitor",
+      "purchaseDate": "2025-12-01",
+      "purchaseCost": 1599,
+      "warrantyMonths": 36,
+      "condition": "Good",
+      "location": "San Francisco Office - 2nd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-fin",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-025",
+      "history": [
+        {
+          "id": "h-25",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2025-12-01T09:00:00Z",
+          "details": "Registered Samsung ViewFinity S9."
+        }
+      ]
+    },
+    {
+      "id": "ast-126",
+      "tag": "AST-2026-026",
+      "name": "Sony A7IV Mirrorless Camera",
+      "serialNumber": "SY-A74-91823K",
+      "category": "Other",
+      "purchaseDate": "2025-08-15",
+      "purchaseCost": 2499,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "Studio A Equipment Closet",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-026",
+      "history": [
+        {
+          "id": "h-26",
+          "action": "Asset Registered",
+          "performedBy": "Marcus Brody",
+          "date": "2025-08-15T10:00:00Z",
+          "details": "Registered Sony A7IV Camera."
+        }
+      ]
+    },
+    {
+      "id": "ast-127",
+      "tag": "AST-2026-027",
+      "name": "Canon EOS R6 Mark II",
+      "serialNumber": "CN-R6M2-8219K",
+      "category": "Other",
+      "purchaseDate": "2025-09-10",
+      "purchaseCost": 2499,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "Studio A Equipment Closet",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-027",
+      "history": [
+        {
+          "id": "h-27",
+          "action": "Asset Registered",
+          "performedBy": "Marcus Brody",
+          "date": "2025-09-10T11:00:00Z",
+          "details": "Registered Canon EOS R6."
+        }
+      ]
+    },
+    {
+      "id": "ast-128",
+      "tag": "AST-2026-028",
+      "name": "DJI Pocket 3 Creator Combo",
+      "serialNumber": "DJ-PK3-1928K",
+      "category": "Other",
+      "purchaseDate": "2026-01-05",
+      "purchaseCost": 650,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "Studio A Equipment Closet",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-028",
+      "history": [
+        {
+          "id": "h-28",
+          "action": "Asset Registered",
+          "performedBy": "Marcus Brody",
+          "date": "2026-01-05T15:00:00Z",
+          "details": "Registered DJI Pocket 3."
+        }
+      ]
+    },
+    {
+      "id": "ast-129",
+      "tag": "AST-2026-029",
+      "name": "HP LaserJet Pro Enterprise",
+      "serialNumber": "HP-LJ-ENT-8291K",
+      "category": "Other",
+      "purchaseDate": "2025-04-20",
+      "purchaseCost": 1100,
+      "warrantyMonths": 36,
+      "condition": "Good",
+      "location": "SF Office - Copy Room 3A",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-029",
+      "history": [
+        {
+          "id": "h-29",
+          "action": "Asset Registered",
+          "performedBy": "Alex Mercer",
+          "date": "2025-04-20T10:00:00Z",
+          "details": "Registered HP LaserJet Printer."
+        }
+      ]
+    },
+    {
+      "id": "ast-130",
+      "tag": "AST-2026-030",
+      "name": "Brother MFC-L8900CDW",
+      "serialNumber": "BR-MFC-82192L",
+      "category": "Other",
+      "purchaseDate": "2025-06-10",
+      "purchaseCost": 650,
+      "warrantyMonths": 12,
+      "condition": "Good",
+      "location": "SF Office - 2nd Floor Hallway",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-fin",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-030",
+      "history": [
+        {
+          "id": "h-30",
+          "action": "Asset Registered",
+          "performedBy": "Alex Mercer",
+          "date": "2025-06-10T14:30:00Z",
+          "details": "Registered Brother MFC."
+        }
+      ]
+    },
+    {
+      "id": "ast-131",
+      "tag": "AST-2026-031",
+      "name": "Cisco Catalyst 9300 Router",
+      "serialNumber": "CS-CAT93-1829K",
+      "category": "Other",
+      "purchaseDate": "2025-03-12",
+      "purchaseCost": 4500,
+      "warrantyMonths": 60,
+      "condition": "Excellent",
+      "location": "Main Server Room (Rack A)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-031",
+      "history": [
+        {
+          "id": "h-31",
+          "action": "Asset Registered",
+          "performedBy": "Sarah Chen",
+          "date": "2025-03-12T09:00:00Z",
+          "details": "Registered Cisco Router."
+        }
+      ]
+    },
+    {
+      "id": "ast-132",
+      "tag": "AST-2026-032",
+      "name": "UniFi Pro 48-Port Switch",
+      "serialNumber": "UF-SW48-9218K",
+      "category": "Other",
+      "purchaseDate": "2025-05-18",
+      "purchaseCost": 1200,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "Main Server Room (Rack B)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-032",
+      "history": [
+        {
+          "id": "h-32",
+          "action": "Asset Registered",
+          "performedBy": "Sarah Chen",
+          "date": "2025-05-18T11:00:00Z",
+          "details": "Registered UniFi Switch."
+        }
+      ]
+    },
+    {
+      "id": "ast-133",
+      "tag": "AST-2026-033",
+      "name": "Fortinet FortiGate 100F Firewall",
+      "serialNumber": "FT-FG100F-821",
+      "category": "Other",
+      "purchaseDate": "2025-07-02",
+      "purchaseCost": 2800,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "Main Server Room (Rack A)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-033",
+      "history": [
+        {
+          "id": "h-33",
+          "action": "Asset Registered",
+          "performedBy": "Sarah Chen",
+          "date": "2025-07-02T10:00:00Z",
+          "details": "Registered Fortinet Firewall."
+        }
+      ]
+    },
+    {
+      "id": "ast-134",
+      "tag": "AST-2026-034",
+      "name": "Dell PowerEdge R760 Server",
+      "serialNumber": "DL-PE-R760-8219",
+      "category": "Server",
+      "purchaseDate": "2025-02-14",
+      "purchaseCost": 8500,
+      "warrantyMonths": 48,
+      "condition": "Excellent",
+      "location": "Main Server Room (Rack C)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-034",
+      "history": [
+        {
+          "id": "h-34",
+          "action": "Asset Registered",
+          "performedBy": "Sarah Chen",
+          "date": "2025-02-14T08:00:00Z",
+          "details": "Registered Dell PowerEdge Server."
+        }
+      ]
+    },
+    {
+      "id": "ast-135",
+      "tag": "AST-2026-035",
+      "name": "HPE ProLiant DL380 Gen11",
+      "serialNumber": "HP-PL-DL380-821",
+      "category": "Server",
+      "purchaseDate": "2025-04-10",
+      "purchaseCost": 9200,
+      "warrantyMonths": 48,
+      "condition": "Excellent",
+      "location": "Main Server Room (Rack C)",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-035",
+      "history": [
+        {
+          "id": "h-35",
+          "action": "Asset Registered",
+          "performedBy": "Sarah Chen",
+          "date": "2025-04-10T10:00:00Z",
+          "details": "Registered HPE ProLiant Server."
+        }
+      ]
+    },
+    {
+      "id": "ast-136",
+      "tag": "AST-2026-036",
+      "name": "Epson Pro EX11000 Projector",
+      "serialNumber": "EP-EX11K-8219K",
+      "category": "Other",
+      "purchaseDate": "2025-09-05",
+      "purchaseCost": 1199,
+      "warrantyMonths": 24,
+      "condition": "Good",
+      "location": "5th Floor Conference Closet",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-036",
+      "history": [
+        {
+          "id": "h-36",
+          "action": "Asset Registered",
+          "performedBy": "Alex Mercer",
+          "date": "2025-09-05T14:00:00Z",
+          "details": "Registered Epson Projector."
+        }
+      ]
+    },
+    {
+      "id": "ast-137",
+      "tag": "AST-2026-037",
+      "name": "Shure MV7 Microphone Suite",
+      "serialNumber": "SH-MV7-8219K-S",
+      "category": "Other",
+      "purchaseDate": "2025-11-20",
+      "purchaseCost": 450,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "Studio A Equipment Closet",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-037",
+      "history": [
+        {
+          "id": "h-37",
+          "action": "Asset Registered",
+          "performedBy": "Marcus Brody",
+          "date": "2025-11-20T11:00:00Z",
+          "details": "Registered Shure MV7."
+        }
+      ]
+    },
+    {
+      "id": "ast-138",
+      "tag": "AST-2026-038",
+      "name": "Meta Quest 3 VR Headset 512GB",
+      "serialNumber": "MT-Q3-8219K2",
+      "category": "Other",
+      "purchaseDate": "2025-12-15",
+      "purchaseCost": 650,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "Engineering R&D Lab 4B",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-038",
+      "history": [
+        {
+          "id": "h-38",
+          "action": "Asset Registered",
+          "performedBy": "John Doe",
+          "date": "2025-12-15T10:00:00Z",
+          "details": "Registered Meta Quest VR Headset."
+        }
+      ]
+    },
+    {
+      "id": "ast-139",
+      "tag": "AST-2026-039",
+      "name": "Zebra DS2208 Barcode Scanner",
+      "serialNumber": "ZB-DS22-8219K",
+      "category": "Other",
+      "purchaseDate": "2025-08-01",
+      "purchaseCost": 180,
+      "warrantyMonths": 12,
+      "condition": "Good",
+      "location": "Operations Warehouse 1",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-039",
+      "history": [
+        {
+          "id": "h-39",
+          "action": "Asset Registered",
+          "performedBy": "Alex Mercer",
+          "date": "2025-08-01T09:00:00Z",
+          "details": "Registered Zebra Barcode Scanner."
+        }
+      ]
+    },
+    {
+      "id": "ast-140",
+      "tag": "AST-2026-040",
+      "name": "CalDigit TS4 Thunderbolt Dock",
+      "serialNumber": "CD-TS4-9182K2",
+      "category": "Other",
+      "purchaseDate": "2026-01-10",
+      "purchaseCost": 399,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-040",
+      "history": [
+        {
+          "id": "h-40",
+          "action": "Asset Registered",
+          "performedBy": "John Doe",
+          "date": "2026-01-10T11:00:00Z",
+          "details": "Registered CalDigit Thunderbolt Dock."
+        }
+      ]
+    },
+    {
+      "id": "ast-141",
+      "tag": "AST-2026-041",
+      "name": "Logitech MX Brio Ultra HD Webcam",
+      "serialNumber": "LT-MXB-8219K2",
+      "category": "Other",
+      "purchaseDate": "2026-03-01",
+      "purchaseCost": 199,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-041",
+      "history": [
+        {
+          "id": "h-41",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-03-01T10:00:00Z",
+          "details": "Registered Logitech MX Brio."
+        }
+      ]
+    },
+    {
+      "id": "ast-142",
+      "tag": "AST-2026-042",
+      "name": "iPad Pro 13\" M4 Slate",
+      "serialNumber": "AP-IPPM4-92182K",
+      "category": "Mobile",
+      "purchaseDate": "2026-02-18",
+      "purchaseCost": 1299,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-042",
+      "history": [
+        {
+          "id": "h-42",
+          "action": "Asset Registered",
+          "performedBy": "Marcus Brody",
+          "date": "2026-02-18T14:30:00Z",
+          "details": "Registered M4 iPad Pro."
+        }
+      ]
+    },
+    {
+      "id": "ast-143",
+      "tag": "AST-2026-043",
+      "name": "Mac Mini M3 Pro 16GB",
+      "serialNumber": "AP-MMM3-9218K2",
+      "category": "Server",
+      "purchaseDate": "2026-01-15",
+      "purchaseCost": 1299,
+      "warrantyMonths": 24,
+      "condition": "Excellent",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-043",
+      "history": [
+        {
+          "id": "h-43",
+          "action": "Asset Registered",
+          "performedBy": "John Doe",
+          "date": "2026-01-15T11:00:00Z",
+          "details": "Registered brand new Mac Mini."
+        }
+      ]
+    },
+    {
+      "id": "ast-144",
+      "tag": "AST-2026-044",
+      "name": "Dell 27\" 4K USB-C Monitor",
+      "serialNumber": "DL-27-4K-9218",
+      "category": "Monitor",
+      "purchaseDate": "2026-04-01",
+      "purchaseCost": 699,
+      "warrantyMonths": 36,
+      "condition": "New",
+      "location": "San Francisco Office - 2nd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-044",
+      "history": [
+        {
+          "id": "h-44",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-04-01T10:00:00Z",
+          "details": "Registered Dell 27\" 4K Monitor."
+        }
+      ]
+    },
+    {
+      "id": "ast-145",
+      "tag": "AST-2026-045",
+      "name": "Samsung Galaxy Tab S9 Ultra",
+      "serialNumber": "SM-TAB-S9-821",
+      "category": "Mobile",
+      "purchaseDate": "2026-03-20",
+      "purchaseCost": 1199,
+      "warrantyMonths": 24,
+      "condition": "New",
+      "location": "Secure Storage Locker C",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-mkt",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-045",
+      "history": [
+        {
+          "id": "h-45",
+          "action": "Asset Registered",
+          "performedBy": "Marcus Brody",
+          "date": "2026-03-20T11:00:00Z",
+          "details": "Registered Samsung Galaxy Tab S9 Ultra."
+        }
+      ]
+    },
+    {
+      "id": "ast-146",
+      "tag": "AST-2026-046",
+      "name": "Lenovo Legion Tower 7i",
+      "serialNumber": "LN-LT7-9218K2",
+      "category": "Other",
+      "purchaseDate": "2026-02-28",
+      "purchaseCost": 2499,
+      "warrantyMonths": 36,
+      "condition": "Excellent",
+      "location": "Engineering R&D Lab 4B",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-046",
+      "history": [
+        {
+          "id": "h-46",
+          "action": "Asset Registered",
+          "performedBy": "Sarah Chen",
+          "date": "2026-02-28T09:00:00Z",
+          "details": "Registered Lenovo Legion Tower."
+        }
+      ]
+    },
+    {
+      "id": "ast-147",
+      "tag": "AST-2026-047",
+      "name": "Nintendo Switch OLED (Break Room)",
+      "serialNumber": "NT-SW-OLED-01",
+      "category": "Other",
+      "purchaseDate": "2026-01-25",
+      "purchaseCost": 349,
+      "warrantyMonths": 12,
+      "condition": "Excellent",
+      "location": "Break Room 2A",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-ops",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-047",
+      "history": [
+        {
+          "id": "h-47",
+          "action": "Asset Registered",
+          "performedBy": "Alex Mercer",
+          "date": "2026-01-25T14:00:00Z",
+          "details": "Registered Nintendo Switch for break room."
+        }
+      ]
+    },
+    {
+      "id": "ast-148",
+      "tag": "AST-2026-048",
+      "name": "Sony WH-1000XM5 Headphones",
+      "serialNumber": "SY-WH1000-01",
+      "category": "Other",
+      "purchaseDate": "2026-04-10",
+      "purchaseCost": 399,
+      "warrantyMonths": 12,
+      "condition": "New",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-eng",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-048",
+      "history": [
+        {
+          "id": "h-48",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-04-10T10:00:00Z",
+          "details": "Registered Sony WH-1000XM5 Headphones."
+        }
+      ]
+    },
+    {
+      "id": "ast-149",
+      "tag": "AST-2026-049",
+      "name": "Standing Desk FlexiSpot E7",
+      "serialNumber": "FS-E7-9218K",
+      "category": "Other",
+      "purchaseDate": "2026-03-05",
+      "purchaseCost": 599,
+      "warrantyMonths": 60,
+      "condition": "New",
+      "location": "San Francisco Office - 3rd Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-hr",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-049",
+      "history": [
+        {
+          "id": "h-49",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-03-05T11:00:00Z",
+          "details": "Registered Standing Desk."
+        }
+      ]
+    },
+    {
+      "id": "ast-150",
+      "tag": "AST-2026-050",
+      "name": "Herman Miller Aeron Chair",
+      "serialNumber": "HM-AERON-01",
+      "category": "Other",
+      "purchaseDate": "2026-02-20",
+      "purchaseCost": 1495,
+      "warrantyMonths": 120,
+      "condition": "New",
+      "location": "San Francisco Office - 4th Floor",
+      "status": "Available",
+      "isBookable": true,
+      "departmentId": "dept-hr",
+      "currentHolderId": null,
+      "qrCodeUrl": "AST-2026-050",
+      "history": [
+        {
+          "id": "h-50",
+          "action": "Asset Registered",
+          "performedBy": "Elena Rostova",
+          "date": "2026-02-20T10:00:00Z",
+          "details": "Registered Herman Miller Chair."
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bkg-201",
+      "assetId": "ast-104",
+      "assetName": "Conference Room 'Omega' (12 Pax)",
+      "assetCategory": "MeetingRoom",
+      "userId": "user-employee",
+      "userName": "John Doe",
+      "title": "Sprint Planning Session",
+      "start": "2026-07-12T10:00:00",
+      "end": "2026-07-12T12:00:00",
+      "status": "Ongoing",
+      "createdAt": "2026-07-10T14:22:00Z"
+    },
+    {
+      "id": "bkg-202",
+      "assetId": "ast-103",
+      "assetName": "Tesla Model 3 (Fleet #4)",
+      "assetCategory": "Vehicle",
+      "userId": "user-head",
+      "userName": "Sarah Chen",
+      "title": "Client Site Visit",
+      "start": "2026-07-12T14:00:00",
+      "end": "2026-07-12T18:00:00",
+      "status": "Upcoming",
+      "createdAt": "2026-07-11T09:15:00Z"
+    },
+    {
+      "id": "bkg-203",
+      "assetId": "ast-104",
+      "assetName": "Conference Room 'Omega' (12 Pax)",
+      "assetCategory": "MeetingRoom",
+      "userId": "user-employee2",
+      "userName": "Jane Smith",
+      "title": "Marketing Campaign Kickoff",
+      "start": "2026-07-11T09:00:00",
+      "end": "2026-07-11T11:00:00",
+      "status": "Completed",
+      "createdAt": "2026-07-09T16:30:00Z"
+    },
+    {
+      "id": "bkg-204",
+      "assetId": "ast-101",
+      "assetName": "MacBook Pro M3 Max 16\"",
+      "assetCategory": "Laptop",
+      "userId": "user-employee3",
+      "userName": "Bob Wilson",
+      "title": "Remote Work Setup",
+      "start": "2026-07-12T08:00:00",
+      "end": "2026-07-12T20:00:00",
+      "status": "Ongoing",
+      "createdAt": "2026-07-11T08:00:00Z"
+    },
+    {
+      "id": "bkg-205",
+      "assetId": "ast-102",
+      "assetName": "ThinkPad X1 Carbon Gen 11",
+      "assetCategory": "Laptop",
+      "userId": "user-employee4",
+      "userName": "Alice Brown",
+      "title": "Financial Audit Prep",
+      "start": "2026-07-11T08:00:00",
+      "end": "2026-07-11T18:00:00",
+      "status": "Completed",
+      "createdAt": "2026-07-10T08:00:00Z"
+    },
+    {
+      "id": "bkg-206",
+      "assetId": "ast-105",
+      "assetName": "Dell UltraSharp 32\" 4K Monitor",
+      "assetCategory": "Monitor",
+      "userId": "user-head-mkt",
+      "userName": "Marcus Brody",
+      "title": "Design Review Session",
+      "start": "2026-07-10T13:00:00",
+      "end": "2026-07-10T15:00:00",
+      "status": "Completed",
+      "createdAt": "2026-07-09T12:00:00Z"
+    },
+    {
+      "id": "bkg-207",
+      "assetId": "ast-106",
+      "assetName": "iPhone 15 Pro Max 256GB",
+      "assetCategory": "Mobile",
+      "userId": "user-employee2",
+      "userName": "Jane Smith",
+      "title": "Field Marketing Trip",
+      "start": "2026-07-09T09:00:00",
+      "end": "2026-07-09T17:00:00",
+      "status": "Completed",
+      "createdAt": "2026-07-08T09:00:00Z"
+    },
+    {
+      "id": "bkg-208",
+      "assetId": "ast-115",
+      "assetName": "Conference Room 'Orion' (8 Pax)",
+      "assetCategory": "MeetingRoom",
+      "userId": "user-head",
+      "userName": "Sarah Chen",
+      "title": "Engineering Standup",
+      "start": "2026-07-12T09:00:00",
+      "end": "2026-07-12T09:30:00",
+      "status": "Ongoing",
+      "createdAt": "2026-07-11T09:00:00Z"
+    },
+    {
+      "id": "bkg-209",
+      "assetId": "ast-120",
+      "assetName": "Tesla Model Y (Fleet #5)",
+      "assetCategory": "Vehicle",
+      "userId": "user-employee3",
+      "userName": "Bob Wilson",
+      "title": "Equipment Pickup",
+      "start": "2026-07-05T10:00:00",
+      "end": "2026-07-05T14:00:00",
+      "status": "Completed",
+      "createdAt": "2026-07-04T10:00:00Z"
+    },
+    {
+      "id": "bkg-210",
+      "assetId": "ast-107",
+      "assetName": "MacBook Air M3 13\"",
+      "assetCategory": "Laptop",
+      "userId": "user-employee",
+      "userName": "John Doe",
+      "title": "Conference Presentation",
+      "start": "2026-06-28T09:00:00",
+      "end": "2026-06-28T17:00:00",
+      "status": "Completed",
+      "createdAt": "2026-06-27T09:00:00Z"
+    },
+    {
+      "id": "bkg-211",
+      "assetId": "ast-124",
+      "assetName": "LG UltraFine 5K Display 27\"",
+      "assetCategory": "Monitor",
+      "userId": "user-head-mkt",
+      "userName": "Marcus Brody",
+      "title": "Video Editing Session",
+      "start": "2026-06-12T10:00:00",
+      "end": "2026-06-12T18:00:00",
+      "status": "Completed",
+      "createdAt": "2026-06-11T10:00:00Z"
+    },
+    {
+      "id": "bkg-212",
+      "assetId": "ast-112",
+      "assetName": "iPhone 16 Pro Slate 256GB",
+      "assetCategory": "Mobile",
+      "userId": "user-employee4",
+      "userName": "Alice Brown",
+      "title": "Business Trip",
+      "start": "2026-05-13T08:00:00",
+      "end": "2026-05-13T20:00:00",
+      "status": "Completed",
+      "createdAt": "2026-05-12T08:00:00Z"
+    },
+    {
+      "id": "bkg-00df1292",
+      "assetId": "ast-110",
+      "assetName": "Surface Laptop 5",
+      "assetCategory": "Laptop",
+      "userId": "user-a45db711",
+      "userName": "daksh",
+      "title": "design",
+      "start": "2026-07-12T08:00:00",
+      "end": "2026-07-12T09:00:00",
+      "status": "Upcoming",
+      "createdAt": "2026-07-12T12:16:07.664Z"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "trf-301",
+      "assetId": "ast-101",
+      "assetTag": "AST-2026-001",
+      "assetName": "MacBook Pro 16\" M3 Max",
+      "requestedById": "user-employee2",
+      "requestedByName": "Jane Smith",
+      "sourceDepartmentId": "dept-eng",
+      "targetDepartmentId": "dept-mkt",
+      "targetHolderId": "user-employee2",
+      "status": "Pending",
+      "createdAt": "2026-07-11T15:30:00Z"
+    },
+    {
+      "id": "trf-302",
+      "assetId": "ast-108",
+      "assetTag": "AST-2026-008",
+      "assetName": "Dell Latitude 7440",
+      "requestedById": "user-employee4",
+      "requestedByName": "Alice Brown",
+      "sourceDepartmentId": "dept-fin",
+      "targetDepartmentId": "dept-eng",
+      "targetHolderId": "user-employee",
+      "status": "Approved",
+      "createdAt": "2026-07-10T10:00:00Z",
+      "approvedById": "user-admin",
+      "approvedByName": "Alex Mercer"
+    },
+    {
+      "id": "trf-303",
+      "assetId": "ast-110",
+      "assetTag": "AST-2026-010",
+      "assetName": "Surface Laptop 5",
+      "requestedById": "user-head-mkt",
+      "requestedByName": "Marcus Brody",
+      "sourceDepartmentId": "dept-mkt",
+      "targetDepartmentId": "dept-ops",
+      "targetHolderId": "user-employee3",
+      "status": "Pending",
+      "createdAt": "2026-07-12T08:00:00Z"
+    },
+    {
+      "id": "trf-966a7e22",
+      "assetId": "ast-103",
+      "assetTag": "AST-2026-003",
+      "assetName": "Tesla Model 3 (Fleet #4)",
+      "requestedById": "user-a45db711",
+      "requestedByName": "daksh",
+      "sourceDepartmentId": "dept-ops",
+      "targetDepartmentId": "dept-eng",
+      "targetHolderId": null,
+      "status": "Pending",
+      "createdAt": "2026-07-12T12:16:43.033Z",
+      "comments": "training "
+    }
+  ],
+  "maintenances": [
+    {
+      "id": "maint-401",
+      "assetId": "ast-105",
+      "assetTag": "AST-2026-005",
+      "assetName": "Dell UltraSharp 32\" 4K Monitor",
+      "reportedById": "user-head-mkt",
+      "reportedByName": "Marcus Brody",
+      "description": "Screen panel starts flickering heavily when running at 60Hz and has vertical lines on the right side.",
+      "priority": "Medium",
+      "status": "In-Progress",
+      "createdAt": "2026-07-01T10:00:00Z",
+      "technicianName": "Alex Mercer (Admin)",
+      "photoUrl": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-402",
+      "assetId": "ast-103",
+      "assetTag": "AST-2026-003",
+      "assetName": "Tesla Model 3 (Fleet #4)",
+      "reportedById": "user-employee3",
+      "reportedByName": "Bob Wilson",
+      "description": "Brake pads worn out, need replacement. Check engine light is on.",
+      "priority": "High",
+      "status": "Pending",
+      "createdAt": "2026-07-11T14:00:00Z",
+      "photoUrl": "https://images.unsplash.com/photo-1574786577419-d727dc86153b?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-403",
+      "assetId": "ast-106",
+      "assetTag": "AST-2026-006",
+      "assetName": "iPhone 15 Pro Max 256GB",
+      "reportedById": "user-employee2",
+      "reportedByName": "Jane Smith",
+      "description": "Battery drains quickly, needs diagnostic check.",
+      "priority": "Low",
+      "status": "Pending",
+      "createdAt": "2026-07-10T09:00:00Z",
+      "photoUrl": "https://images.unsplash.com/photo-1746006084491-95423925b699?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-404",
+      "assetId": "ast-131",
+      "assetTag": "AST-2026-031",
+      "assetName": "Cisco Catalyst 9300 Router",
+      "reportedById": "user-head",
+      "reportedByName": "Sarah Chen",
+      "description": "Intermittent packet loss on port 8. Firmware update required.",
+      "priority": "Critical",
+      "status": "In-Progress",
+      "createdAt": "2026-07-12T06:00:00Z",
+      "technicianName": "Elena Rostova",
+      "photoUrl": "https://images.unsplash.com/photo-1710857679450-ecd7945dd4bd?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-405",
+      "assetId": "ast-125",
+      "assetTag": "AST-2026-025",
+      "assetName": "Samsung ViewFinity S9 5K",
+      "reportedById": "user-employee4",
+      "reportedByName": "Alice Brown",
+      "description": "Display has dead pixel cluster in top-left corner.",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-07-08T11:00:00Z",
+      "technicianName": "Alex Mercer (Admin)",
+      "resolvedDate": "2026-07-09T15:00:00Z",
+      "photoUrl": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-406",
+      "assetId": "ast-134",
+      "assetTag": "AST-2026-034",
+      "assetName": "Dell PowerEdge R760 Server",
+      "reportedById": "user-head",
+      "reportedByName": "Sarah Chen",
+      "description": "RAID array degraded, one drive failed. Need hot-swap replacement.",
+      "priority": "Critical",
+      "status": "Pending",
+      "createdAt": "2026-07-12T08:30:00Z",
+      "photoUrl": "https://images.unsplash.com/photo-1680992046615-065f58bcb4d8?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-407",
+      "assetId": "ast-109",
+      "assetTag": "AST-2026-009",
+      "assetName": "HP EliteBook 840 G10",
+      "reportedById": "user-employee3",
+      "reportedByName": "Bob Wilson",
+      "description": "Keyboard backlight not working, USB port loose.",
+      "priority": "Medium",
+      "status": "Approved",
+      "createdAt": "2026-07-09T16:00:00Z",
+      "technicianName": "Elena Rostova",
+      "photoUrl": "https://images.unsplash.com/photo-1777861845855-edb4b29158af?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    },
+    {
+      "id": "maint-37196053",
+      "assetId": "ast-101",
+      "assetTag": "AST-2026-001",
+      "assetName": "MacBook Pro M3 Max 16\"",
+      "reportedById": "user-a45db711",
+      "reportedByName": "daksh",
+      "description": "battery drain",
+      "priority": "Medium",
+      "status": "Pending",
+      "createdAt": "2026-07-12T12:17:20.821Z",
+      "photoUrl": "https://images.unsplash.com/photo-1561064041-38db54d8c63d?auto=format&fit=crop&w=1000&q=80&ar=4:3"
+    }
+  ],
+  "auditCycles": [
+    {
+      "id": "aud-501",
+      "title": "Q3 Tech & Engineering Inventory Audit",
+      "auditorId": "user-manager",
+      "auditorName": "Elena Rostova",
+      "departmentId": "dept-eng",
+      "location": "San Francisco Office - 4th Floor",
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-15",
+      "status": "In-Progress",
+      "createdAt": "2026-07-01T08:00:00Z",
+      "items": [
+        {
+          "assetId": "ast-101",
+          "assetTag": "AST-2026-001",
+          "assetName": "MacBook Pro 16\" M3 Max",
+          "category": "Laptop",
+          "expectedHolderName": "John Doe",
+          "verified": true,
+          "actualHolderId": "user-employee",
+          "condition": "Excellent",
+          "status": "Allocated",
+          "notes": "Physically verified. Screen and keyboard are in perfect shape."
+        },
+        {
+          "assetId": "ast-102",
+          "assetTag": "AST-2026-002",
+          "assetName": "ThinkPad X1 Carbon Gen 11",
+          "category": "Laptop",
+          "expectedHolderName": "Unallocated",
+          "verified": false,
+          "actualHolderId": null,
+          "condition": "Excellent",
+          "status": "Available",
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not-601",
+      "userId": "user-employee",
+      "title": "Asset Allocated",
+      "message": "MacBook Pro 16\" (AST-2026-001) has been successfully assigned to you.",
+      "type": "success",
+      "isRead": false,
+      "createdAt": "2026-01-15T11:30:00Z"
+    },
+    {
+      "id": "not-602",
+      "userId": "user-manager",
+      "title": "New Transfer Request",
+      "message": "Jane Smith has requested an asset transfer for MacBook Pro 16\" (AST-2026-001).",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-07-11T15:30:00Z"
+    },
+    {
+      "id": "not-603",
+      "userId": "user-admin",
+      "title": "Critical Maintenance Required",
+      "message": "Cisco Catalyst 9300 Router (AST-2026-031) has a critical maintenance ticket.",
+      "type": "alert",
+      "isRead": false,
+      "createdAt": "2026-07-12T06:00:00Z"
+    },
+    {
+      "id": "not-604",
+      "userId": "user-head",
+      "title": "Audit Reminder",
+      "message": "Q3 Tech & Engineering Inventory Audit is due by July 15.",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-07-12T08:00:00Z"
+    },
+    {
+      "id": "not-8b46e2e8",
+      "userId": "user-a45db711",
+      "title": "Booking Confirmed",
+      "message": "Your booking for Surface Laptop 5 (\"design\") has been confirmed.",
+      "type": "success",
+      "isRead": false,
+      "createdAt": "2026-07-12T12:16:07.664Z"
+    },
+    {
+      "id": "not-27e3baf4",
+      "userId": "user-admin",
+      "title": "Transfer Request",
+      "message": "daksh requested transfer of Tesla Model 3 (Fleet #4) (AST-2026-003).",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-07-12T12:16:43.033Z"
+    },
+    {
+      "id": "not-a7e2b817",
+      "userId": "user-manager",
+      "title": "Transfer Request",
+      "message": "daksh requested transfer of Tesla Model 3 (Fleet #4) (AST-2026-003).",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-07-12T12:16:43.033Z"
+    },
+    {
+      "id": "not-1b37dc0b",
+      "userId": "user-head",
+      "title": "Transfer Request",
+      "message": "daksh requested transfer of Tesla Model 3 (Fleet #4) (AST-2026-003).",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-07-12T12:16:43.033Z"
+    },
+    {
+      "id": "not-b726e5a9",
+      "userId": "user-admin",
+      "title": "New Maintenance Ticket",
+      "message": "daksh reported a maintenance issue with MacBook Pro M3 Max 16\".",
+      "type": "warning",
+      "isRead": false,
+      "createdAt": "2026-07-12T12:17:20.821Z"
+    },
+    {
+      "id": "not-88bf0ceb",
+      "userId": "user-manager",
+      "title": "New Maintenance Ticket",
+      "message": "daksh reported a maintenance issue with MacBook Pro M3 Max 16\".",
+      "type": "warning",
+      "isRead": false,
+      "createdAt": "2026-07-12T12:17:20.821Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-701",
+      "userId": "user-manager",
+      "userName": "Elena Rostova",
+      "action": "REGISTER",
+      "targetType": "Asset",
+      "targetId": "ast-101",
+      "details": "Registered asset: MacBook Pro 16\" M3 Max",
+      "createdAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "log-702",
+      "userId": "user-manager",
+      "userName": "Elena Rostova",
+      "action": "ALLOCATE",
+      "targetType": "Asset",
+      "targetId": "ast-101",
+      "details": "Allocated MacBook Pro 16\" to employee John Doe",
+      "oldValue": "Available",
+      "newValue": "Allocated",
+      "createdAt": "2026-01-15T11:30:00Z"
+    },
+    {
+      "id": "log-703",
+      "userId": "user-employee2",
+      "userName": "Jane Smith",
+      "action": "CREATE_BOOKING",
+      "targetType": "Booking",
+      "targetId": "bkg-203",
+      "details": "Booked resource Conference Room 'Omega' (12 Pax) for Marketing Campaign Kickoff",
+      "createdAt": "2026-07-09T16:30:00Z"
+    },
+    {
+      "id": "log-704",
+      "userId": "user-head",
+      "userName": "Sarah Chen",
+      "action": "CREATE_BOOKING",
+      "targetType": "Booking",
+      "targetId": "bkg-202",
+      "details": "Booked resource Tesla Model 3 (Fleet #4) for Client Site Visit",
+      "createdAt": "2026-07-11T09:15:00Z"
+    },
+    {
+      "id": "log-705",
+      "userId": "user-head-mkt",
+      "userName": "Marcus Brody",
+      "action": "REPORT_MAINTENANCE",
+      "targetType": "Maintenance",
+      "targetId": "maint-401",
+      "details": "Filed ticket for Dell UltraSharp 32\" 4K Monitor - Priority: Medium",
+      "createdAt": "2026-07-01T10:00:00Z"
+    },
+    {
+      "id": "log-706",
+      "userId": "user-employee3",
+      "userName": "Bob Wilson",
+      "action": "REPORT_MAINTENANCE",
+      "targetType": "Maintenance",
+      "targetId": "maint-402",
+      "details": "Filed ticket for Tesla Model 3 (Fleet #4) - Priority: High",
+      "createdAt": "2026-07-11T14:00:00Z"
+    },
+    {
+      "id": "log-707",
+      "userId": "user-head",
+      "userName": "Sarah Chen",
+      "action": "REPORT_MAINTENANCE",
+      "targetType": "Maintenance",
+      "targetId": "maint-404",
+      "details": "Filed ticket for Cisco Catalyst 9300 Router - Priority: Critical",
+      "createdAt": "2026-07-12T06:00:00Z"
+    },
+    {
+      "id": "log-708",
+      "userId": "user-employee2",
+      "userName": "Jane Smith",
+      "action": "REQUEST_TRANSFER",
+      "targetType": "Transfer",
+      "targetId": "trf-301",
+      "details": "Requested transfer for asset MacBook Pro 16\" M3 Max to Department",
+      "createdAt": "2026-07-11T15:30:00Z"
+    },
+    {
+      "id": "log-709",
+      "userId": "user-admin",
+      "userName": "Alex Mercer",
+      "action": "APPROVE_TRANSFER",
+      "targetType": "Transfer",
+      "targetId": "trf-302",
+      "details": "Approved asset transfer of Dell Latitude 7440",
+      "createdAt": "2026-07-10T12:00:00Z"
+    },
+    {
+      "id": "log-710",
+      "userId": "user-manager",
+      "userName": "Elena Rostova",
+      "action": "CREATE_AUDIT",
+      "targetType": "AuditCycle",
+      "targetId": "aud-501",
+      "details": "Initiated audit cycle: Q3 Tech & Engineering Inventory Audit with 2 scoped assets.",
+      "createdAt": "2026-07-01T08:00:00Z"
+    },
+    {
+      "id": "log-711",
+      "userId": "user-employee",
+      "userName": "John Doe",
+      "action": "CREATE_BOOKING",
+      "targetType": "Booking",
+      "targetId": "bkg-201",
+      "details": "Booked resource Conference Room 'Omega' (12 Pax) for Sprint Planning Session",
+      "createdAt": "2026-07-10T14:22:00Z"
+    },
+    {
+      "id": "log-712",
+      "userId": "user-head",
+      "userName": "Sarah Chen",
+      "action": "REPORT_MAINTENANCE",
+      "targetType": "Maintenance",
+      "targetId": "maint-406",
+      "details": "Filed ticket for Dell PowerEdge R760 Server - Priority: Critical",
+      "createdAt": "2026-07-12T08:30:00Z"
+    },
+    {
+      "id": "log-18a73c2a",
+      "userId": "user-a45db711",
+      "userName": "daksh",
+      "action": "SIGNUP",
+      "targetType": "User",
+      "targetId": "user-a45db711",
+      "details": "Signed up as a new Employee.",
+      "createdAt": "2026-07-12T12:14:05.951Z"
+    },
+    {
+      "id": "log-e73ecc97",
+      "userId": "user-a45db711",
+      "userName": "daksh",
+      "action": "CREATE_BOOKING",
+      "targetType": "Booking",
+      "targetId": "bkg-00df1292",
+      "details": "Booked resource Surface Laptop 5 from 2026-07-12T08:00:00 to 2026-07-12T09:00:00",
+      "createdAt": "2026-07-12T12:16:07.664Z"
+    },
+    {
+      "id": "log-77b89e26",
+      "userId": "user-a45db711",
+      "userName": "daksh",
+      "action": "REQUEST_TRANSFER",
+      "targetType": "Transfer",
+      "targetId": "trf-966a7e22",
+      "details": "Requested transfer for asset Tesla Model 3 (Fleet #4) to Department",
+      "createdAt": "2026-07-12T12:16:43.033Z"
+    },
+    {
+      "id": "log-c2652ec9",
+      "userId": "user-a45db711",
+      "userName": "daksh",
+      "action": "REPORT_MAINTENANCE",
+      "targetType": "Maintenance",
+      "targetId": "maint-37196053",
+      "details": "Filed ticket for MacBook Pro M3 Max 16\" - Priority: Medium",
+      "createdAt": "2026-07-12T12:17:20.821Z"
+    }
+  ]
+}

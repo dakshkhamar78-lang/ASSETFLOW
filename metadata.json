@@ -1,0 +1,6 @@
+{
+  "name": "AssetFlow",
+  "description": "Enterprise-grade Asset & Resource Management System with AI-powered retirement predictions, audit discrepancy reports, resource scheduling, transfers, and maintenance ticket workflows.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
